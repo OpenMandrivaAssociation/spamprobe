@@ -7,6 +7,7 @@ Group:		Networking/Mail
 URL:		http://www.sourceforge.net/projects/spamprobe
 Source0:	http://prdownloads.sourceforge.net/spamprobe/%{name}-%{version}.tar.bz2
 BuildRequires:	db4.5-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 SpamProbe is a spam detection program that uses a Bayesian
