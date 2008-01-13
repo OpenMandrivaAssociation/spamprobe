@@ -1,12 +1,12 @@
 Summary:	A Bayesian probability spam analysis engine
 Name:		spamprobe
 Version:	1.4d
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	QPL
 Group:		Networking/Mail
 URL:		http://www.sourceforge.net/projects/spamprobe
 Source0:	http://prdownloads.sourceforge.net/spamprobe/%{name}-%{version}.tar.bz2
-BuildRequires:	db4.5-devel
+BuildRequires:	db4.6-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
