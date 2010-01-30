@@ -1,14 +1,17 @@
 Summary:	A Bayesian probability spam analysis engine
 Name:		spamprobe
 Version:	1.4d
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	QPL
 Group:		Networking/Mail
 URL:		http://www.sourceforge.net/projects/spamprobe
 Source0:	http://prdownloads.sourceforge.net/spamprobe/%{name}-%{version}.tar.bz2
 # http://sourceforge.net/tracker/index.php?func=detail&aid=1818489&group_id=61201&atid=496459
 Patch0:		spamprobe-1.4d-with-gcc4.3.diff
-BuildRequires:	db4.6-devel
+BuildRequires:	db4-devel
+BuildRequires:	ungif-devel
+BuildRequires:	jpeg-devel
+BuildRequires:	png-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
