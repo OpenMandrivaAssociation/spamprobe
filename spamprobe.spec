@@ -8,6 +8,7 @@ URL:		http://www.sourceforge.net/projects/spamprobe
 Source0:	http://prdownloads.sourceforge.net/spamprobe/%{name}-%{version}.tar.bz2
 # http://sourceforge.net/tracker/index.php?func=detail&aid=1818489&group_id=61201&atid=496459
 Patch0:		spamprobe-1.4d-with-gcc4.3.diff
+Patch1:		spamprobe-1.4d-png1.4.diff
 BuildRequires:	db-devel
 BuildRequires:	ungif-devel
 BuildRequires:	jpeg-devel
@@ -24,6 +25,7 @@ email that each individual user normally receives.
 
 %setup -q
 %patch0 -p1
+%patch1 -p0
 
 %build
 
