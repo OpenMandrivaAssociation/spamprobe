@@ -4,7 +4,7 @@ Version:	1.4d
 Release:	11
 License:	QPL
 Group:		Networking/Mail
-URL:		http://www.sourceforge.net/projects/spamprobe
+URL:		https://www.sourceforge.net/projects/spamprobe
 Source0:	http://prdownloads.sourceforge.net/spamprobe/%{name}-%{version}.tar.bz2
 # http://sourceforge.net/tracker/index.php?func=detail&aid=1818489&group_id=61201&atid=496459
 Patch0:		spamprobe-1.4d-with-gcc4.3.diff
